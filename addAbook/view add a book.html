@@ -1,0 +1,78 @@
+<!Doctype Html>
+<html >
+<head>
+    <title> addAbook</title>
+    <meta charset="UtF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="addAbook.css">
+
+</head>
+<body>
+
+      
+<div class="box"> 
+               
+    <h1>Add a Book</h1>
+    <p class="start">The Image</p>
+    <label for="inputfile"><input type="file" id="inputfile" /></label>
+    <div class="inputbox"> 
+                
+    <form>
+            <input type="text" name="" required="">
+            <label>BookName</label>
+        </div>
+        <!--
+               <div class="inputbox">
+                <input type="text" name="" required="">
+                <label>Keywords</label>
+                
+            </div>
+
+        -->
+        
+        <div class="tooltip"><i class="fa fa-info-circle fa-2x"  aria-hidden="true " ></i>
+                <span class="tooltiptext">you can find it at the back of the book ,
+                        it's composed from 10 or 14 digits 
+                </span>
+              </div>             
+        
+            <div class="inputbox">
+                    <input type="text" name="" required="">
+                    <label>ISBN</label>
+                   
+                    
+            </div>
+            <div class="star-rating">
+                <p class="state">The State</p>
+                    <input id="star-5" type="radio" name="rating" value="star-5">
+                    <label for="star-5" title="very excellent">
+                            <i class="active fa fa-star" aria-hidden="true"></i>
+                    </label>
+                    <input id="star-4" type="radio" name="rating" value="star-4">
+                    <label for="star-4" title="excellent">
+                            <i class="active fa fa-star" aria-hidden="true"></i>
+                    </label>
+                    <input id="star-3" type="radio" name="rating" value="star-3">
+                    <label for="star-3" title="good">
+                            <i class="active fa fa-star" aria-hidden="true"></i>
+                    </label>
+                    <input id="star-2" type="radio" name="rating" value="star-2">
+                    <label for="star-2" title="bad">
+                            <i class="active fa fa-star" aria-hidden="true"></i>
+                    </label>
+                    <input id="star-1" type="radio" name="rating" value="star-1">
+                    <label for="star-1" title="verybad">
+                            <i class="active fa fa-star" aria-hidden="true"></i>
+                    </label>
+                </div>
+                <div class="btn-sbmt">
+                <input type="submit" value="Add The Book" class="button" >
+        </div>
+
+    </form>
+</div>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="plugins.js"></script>
+</body>
+</html>
